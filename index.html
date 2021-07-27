@@ -1,121 +1,161 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Romila Pradhan's homepage</title>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
-<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Montserrat|Open+Sans|Oswald|Raleway|Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+      function toggle(id) {
+      var e = document.getElementById(id);
+      e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+    }
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img border=0 Vspace=5 Hspace=0
+            src="img/Romila_Sep2020.png"
+            alt="Romila Pradhan"
+            width="220">
+            <br><br>
+        <p>
+        <b><font size=3em>Romila Pradhan</font></b><br>
+        Assistant Professor<br>
+        Computer & Information Technology<br>
+        Purdue University<br>
+        </p>
+        <p>romila [at] purdue [dot] edu</p>
+      </header>
 
-	<meta name="description" content="">
-	<meta name="author" content="Romila Pradhan">
-	<link rel="stylesheet" type="text/css" href="/css/1024px.css" title="css/1024px" media="screen,projection">
-	  <link rel="shortcut icon" type="image/ico" href="http://www.cs.purdue.edu/homes/rpradhan/favicon.ico">
-	<title>Romila Pradhan</title>
-<style type="text/css"></style></head>
+      <section>
 
-<body data-feedly-mini="yes">
-<div id="wrap">
+        <h1>About</h1>
+        I study problems on data management and data science. My research is driven by the need to build trustworthy and responsible decision-making systems. Recently, I have been developing systems that facilitate explainability, fairness and accountability of data-driven decision-making systems.
+        <br><br>
+        Previously, I was a Postdoctoral Researcher in the Halıcıoğlu Data Science Institute at the University of California San Diego where I developed systems that facilitate explainability, fairness and accountability of data-driven decision-making systems.
+
+        Before that, I was a Visiting Assistant Professor in the Department of Computer Science at Purdue University where I researched database management for causal inference, and taught the undergraduate machine learning course. 
+        <br><br>
+        I earned my Ph.D. from the Department of Computer Science at Purdue University where my dissertation focused on resolving conflicts in data integrated from disparate data sources. In a previous life, I graduated with M.S. and B.S. in Mathematics and Computing from the Indian Institute of Technology (IIT) Kharagpur, India.
+
+        <br><br><font style="color:red">I will join Purdue CIT as an assistant professor in Fall 2021!</font> I am actively looking for prospective PhD, Master’s, and undergraduate students to join my research group. Email me if you are interested.
+        
+        <a href="javascript:toggle('additional-news')">
+        <h2>News</h2>
+        </a>
+        <b>7/21</b> Paper on feature attribution and recourse via probabilistic contrastive counterfactuals accepted to <a href="https://sites.google.com/view/recourse21">ICML Algorithmic Recourse workshop</a><br>
+        <b>5/21</b> Presented Lewis at <a href="https://2021.sigmod.org/">SIGMOD 21</a><br>
+        <b>5/21</b> Demonstration paper of Lewis accepted to <a href="https://vldb.org/2021/">VLDB 21</a><br>
+        <b>4/21</b> Serving on the PC of <a href="https://conferences.inf.ed.ac.uk/edbticdt2022/">EDBT 22</a><br>
+        <b>4/21</b> Joining the <a href="https://polytechnic.purdue.edu/departments/computer-and-information-technology">Department of Computer and Information Technology</a> as an Assistant Professor<br>
+        <b>3/21</b> Paper on probabilistic contrastive counterfactuals to explain black-box algorithms (Lewis) accepted to <a href="https://2021.sigmod.org/">SIGMOD 21</a><br>
 
 
-<div id="content">
-<h1>Romila Pradhan</h1>
+        <div id="additional-news" style="display:none;">
+        <b>more</b> news<br>
+        </div>
 
-<p>I am a Postdoctoral researcher in the Halıcıoğlu Data Science Institute</a> at the <a href="https://ucsd.edu">University of California San Diego</a> where I work with <a href="https://bsalimi.github.io">Prof. Babak Salimi</a> on problems related to responsible data science. My research lies in the intersection of data management, causal inference and machine learning, and is driven by the need to build <i>trustworthy</i> and <i>responsible</i> decision-making systems. My current research in responsible data science is aimed at developing systems that facilitate  explainability, fairness and accountability of data-driven decision-making systems.</p>
 
-<p>Before joining the University of Califorina San Diego, I was a Postdoctoral Research Associate and Visiting Assistant Professor in the Department of Computer Science at Purdue University, where I worked with <a href="https://www.cs.purdue.edu/homes/sunil">Prof. Sunil Prabhakar</a> on data management for causal inference.</p>
+        <h2>Papers</h2>
+        <a href="https://arxiv.org/pdf/2103.11972.pdf" class="paper">
+        Explaining Black-Box Algorithms Using Probabilistic Contrastive Counterfactuals
+        </a><br>
+        Sainyam Galhotra*, Romila Pradhan*, Babak Salimi
+        <br>
+        <b> SIGMOD 21</b>  ACM International Conference on Management of Data
+        (<a href="https://lewis-system.github.io/">Project Website</a>)
+        <br>
+        <br>
 
-<p>I obtained my Ph.D. from the <a href="https://www.cs.purdue.edu">Department of Computer Science</a> at <a href="https://www.purdue.edu">Purdue University</a> where my dissertation focused on capitalizing user feedback and data correlations to improve conflict resolution of data integrated from multiple data sources. Previously, I graduated with M.S. and B.S. in Mathematics and Computing from the <a href="http://www.iitkgp.ac.in">Indian Institute of Technology (IIT) Kharagpur</a>, India.
-</p>
+        <a href="/pubs/icml_lewis_recourse.pdf" class="paper">
+        Feature Attribution and Recourse via Probabilistic Contrastive Counterfactuals<br>
+        </a>
+        Sainyam Galhotra, Romila Pradhan, Babak Salimi
+        <br>
+        <b> ICML Algorithmic Recourse Workshop 21</b>  International Conference on Machine Learning
+        <br>
+        <br>
 
-<h2>Publications</h2>
-<p>
-	Sainyam Galhotra*, Romila Pradhan*, Babak Salimi<br>
-	<em>Explaining Black-Box Algorithms Using Probabilistic Contrastive Counterfactuals</em><br>
-	ACM International Conference on Management of Data (SIGMOD), 2021 (To appear)<br>
-	[<a href="https://arxiv.org/pdf/2103.11972.pdf">Pre-print</a> |
-         <a href="https://lewis-system.github.io/">Project Website</a> ]&nbsp(* denotes equal contribution) 
+        <a href="/pubs/lewis-demo.pdf" class="paper">
+        Demonstration of Generating Explanations for Black-Box Algorithms Using Lewis<br>
+        </a>
+        Paul Y. Wang, Sainyam Galhotra, Romila Pradhan, Babak Salimi
+        <br>
+        <b> VLDB 21</b>  Proceedings of the  VLDB Endowment
+        <br>
+        <br>
 
-<p>
-	Paul Y. Wang, Sainyam Galhotra, Romila Pradhan, Babak Salimi<br>
-	<em>Demonstration of Generating Explanations for Black-Box Algorithms Using Lewis</em><br>
-	Proceedings of the  VLDB Endowment (PVLDB), 2021 (To appear) <br>
-	
-<p>
-	Romila Pradhan, Sunil Prabhakar<br>
-	<em>AuthIntegrate: Toward Combating False Data on the Internet</em><br>
-	International Workshop on Truth Discovery and Fact Checking: Theory and Practice at 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2019
-	[<a href="/pubs/false-data.pdf">Paper</a> |
-         <a href="/pubs/false-data-slides.pdf">Slides</a> ]
+        <a href="/pubs/false-data.pdf"class="paper">
+        AuthIntegrate: Toward Combating False Data on the Internet<br>
+        </a>
+        Romila Pradhan, Sunil Prabhakar
+        <br>
+        <b> KDD 19 Workshop on Truth Discovery and Fact Checking: Theory and Practice </b>  ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+        <br>
+        <br>  
 
-<p>
-	Romila Pradhan, Walid G. Aref, Sunil Prabhakar<br>
-	<em>Leveraging Data Relationships to Resolve Conflicts from Disparate Data Sources</em><br>
-	In Proceedings of the 29th International Conference on Database and Expert Systems Applications (DEXA), 2018
-	[<a href="/pubs/semantic-fusion.pdf">Paper</a> |
-	 <a href="/pubs/semantic-fusion-slides.pdf">Slides</a> ]
+        <a href="/pubs/thesis.pdf" class="paper">
+        Guided Data Fusion</a>
+        <br>
+        <b> PhD Thesis, Purdue University, 18</b> 
+        <br>
+        <br>
 
-<p>
-	Romila Pradhan, Siarhei Bykau, Sunil Prabhakar<br>
-	<em>A Framework to Integrate User Feedback for Rapid Conflict Resolution</em><br>
-	In Proceedings of the 34th IEEE International Conference on Data Engineering (ICDE), 2018
-	[<a href="/pubs/user-feedback-fusion-demo.pdf">Paper</a>]
+        <a href="/pubs/semantic-fusion.pdf" class="paper">
+        Leveraging Data Relationships to Resolve Conflicts from Disparate Data Sources<br>
+        </a>
+        Romila Pradhan, Walid G. Aref, Sunil Prabhakar
+        <br>
+        <b> DEXA 18 </b>  International Conference on Database and Expert Systems Applications
+        <br>
+        <br>  
 
-<p>
-	Romila Pradhan, Siarhei Bykau, Sunil Prabhakar<br>
-	<em>Staging User Feedback toward Rapid Conflict Resolution in Data Fusion</em><br>
-	In Proceedings of the 2017 ACM International Conference on Management of Data (SIGMOD), 2017
-	[<a href="/pubs/user-feedback-fusion.pdf">Paper</a> |
-	 <a href="/pubs/user-feedback-fusion-slides.pdf">Slides</a> |
-	 <a href="/pubs/user-feedback-fusion-poster.pdf">Poster</a> ]
+        <a href="/pubs/user-feedback-fusion-demo.pdf" class="paper">
+        A Framework to Integrate User Feedback for Rapid Conflict Resolution<br>
+        </a>
+        Romila Pradhan, Siarhei Bykau, Sunil Prabhakar
+        <br>
+        <b> ICDE 18 </b>  IEEE International Conference on Data Engineering
+        <br>
+        <br>
 
-<h2>Teaching</h2>
+        <a href="/pubs/user-feedback-fusion.pdf" class="paper">
+        Staging User Feedback toward Rapid Conflict Resolution in Data Fusion<br>
+        </a>
+        Romila Pradhan, Siarhei Bykau, Sunil Prabhakar
+        <br>
+        <b> SIGMOD 17 </b>  ACM International Conference on Management of Data
+        <br>
 
-<p>
-UCSD: Introduction to Data Management (DSC100), Winter 2021 (Lectures on transaction processing)
-Purdue: Data Mining and Machine Learning (CS37300), Fall 2019, Spring 2019 (co-instructor)
-</p>
+        <h2>Teaching</h2>
+            <b> Fall 19</b> 
+            Data Mining and Machine Learning, Purdue CS<br>
+            
+        <h2>Service</h2> 
 
-</div>
+            <b> 22 </b> EDBT (Program Committee), PODS<br>
+            <b> 21 </b> VLDB , ICDE<br>
+            <b> 20</b>  TKDE, CIKM<br>
+            <b> 19</b>  TDSC, ICDE, The Web Conference<br>
+            <b> 11-16</b> SIGMOD, EDBT, ICDE, CIKM<br>
+            
+        </tbody></table>
 
-<div id="sidebar">
-<img src="/img/romila_profile_2019.png" width="190" border="0" alt="Picture">
-<!--img src="/img/Romila_Sep2020.png" width="190" border="0" alt="Picture"-->
-</div>
+        </section>
 
-<div id="sidelinks">
-	<h3a>
-		<!--strong>Contact:</strong-->
-	<p>
-		<b>Email:</b> rpradhan <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp at ucsd.edu<br> 
-		<br>
-	</p>
-	</h3a>
-</div>
-
-<div id="footer">
-		<p>Last modified: June 2021.
-		Original site design by Andreas Viklund; modified by Romila Pradhan. </p> 
-</div>
-
-</div>
-
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-	var sc_project=11616698; 
-	var sc_invisible=0; 
-	var sc_security="7cbe976d"; 
-	var scJsHost = (("https:" == document.location.protocol) ?
-	"https://secure." : "http://www.");
-	document.write("<sc"+"ript type='text/javascript' src='" +
-	scJsHost+
-	"statcounter.com/counter/counter.js'></"+"script>");
-	</script>
-	<noscript>
-		<div class="statcounter"><a title="Web Analytics"
-	href="http://statcounter.com/" target="_blank"><img
-	class="statcounter"
-	src="//c.statcounter.com/11616698/0/7cbe976d/0/" alt="Web
-	Analytics"></a>
-		</div>
-	</noscript>
-<!-- End of StatCounter Code for Default Guide -->
-
-</body></html>
+      <footer>
+        <p><small>Adapted from <a href="https://github.com/orderedlist/minimal">minimal</a> <br>
+        Last modified: July 2021 </small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
