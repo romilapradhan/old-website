@@ -269,3 +269,15 @@ footer {
     color:#444;
   }
 }
+
+social  {
+  border-top:1px solid #e8e8e8;
+  margin-top:50px;
+  padding-top:20px
+}
+
+contacticon {
+  display:block;
+  font-size:60px;
+  margin:10px
+}
